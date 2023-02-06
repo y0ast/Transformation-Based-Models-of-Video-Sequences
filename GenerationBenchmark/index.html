@@ -1,0 +1,250 @@
+<html>
+
+<h1>Generation Benchmarks</h1>
+
+On the leftmost column we show the frames we condition the generation upon. Next, there is the ground truth completion
+of the video clip. The 3rd column shows generations using our model trained to predict 4 frames in the future. The 4th
+column shows generations using our model trained to predict just the next frame.
+Finally, the last two columns show generations from [5] and optical flow (assuming constant flow speed).
+
+<br></br>
+
+<body>
+
+    <table style="width:100%">
+        <tr>
+            <td> input </td>
+            <td> Ground truth </td>
+            <td> our model with 4 future step prediction </td>
+            <td> our model with 1 future step prediction </td>
+            <td> adversarially trained [5] </td>
+            <td> opticalflow </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_50.gif> </td>
+            <td> <img src=gt/copied/animation_50.gif> </td>
+            <td> <img src=newmodel/4_step/animation_50.gif> </td>
+            <td> <img src=newmodel/1_step/animation_50.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_50.gif> </td>
+            <td> <img src=optflow/animation_50.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_150.gif> </td>
+            <td> <img src=gt/copied/animation_150.gif> </td>
+            <td> <img src=newmodel/4_step/animation_150.gif> </td>
+            <td> <img src=newmodel/1_step/animation_150.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_150.gif> </td>
+            <td> <img src=optflow/animation_150.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_250.gif> </td>
+            <td> <img src=gt/copied/animation_250.gif> </td>
+            <td> <img src=newmodel/4_step/animation_250.gif> </td>
+            <td> <img src=newmodel/1_step/animation_250.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_250.gif> </td>
+            <td> <img src=optflow/animation_250.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_350.gif> </td>
+            <td> <img src=gt/copied/animation_350.gif> </td>
+            <td> <img src=newmodel/4_step/animation_350.gif> </td>
+            <td> <img src=newmodel/1_step/animation_350.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_350.gif> </td>
+            <td> <img src=optflow/animation_350.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_450.gif> </td>
+            <td> <img src=gt/copied/animation_450.gif> </td>
+            <td> <img src=newmodel/4_step/animation_450.gif> </td>
+            <td> <img src=newmodel/1_step/animation_450.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_450.gif> </td>
+            <td> <img src=optflow/animation_450.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_550.gif> </td>
+            <td> <img src=gt/copied/animation_550.gif> </td>
+            <td> <img src=newmodel/4_step/animation_550.gif> </td>
+            <td> <img src=newmodel/1_step/animation_550.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_550.gif> </td>
+            <td> <img src=optflow/animation_550.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_650.gif> </td>
+            <td> <img src=gt/copied/animation_650.gif> </td>
+            <td> <img src=newmodel/4_step/animation_650.gif> </td>
+            <td> <img src=newmodel/1_step/animation_650.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_650.gif> </td>
+            <td> <img src=optflow/animation_650.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_750.gif> </td>
+            <td> <img src=gt/copied/animation_750.gif> </td>
+            <td> <img src=newmodel/4_step/animation_750.gif> </td>
+            <td> <img src=newmodel/1_step/animation_750.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_750.gif> </td>
+            <td> <img src=optflow/animation_750.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_850.gif> </td>
+            <td> <img src=gt/copied/animation_850.gif> </td>
+            <td> <img src=newmodel/4_step/animation_850.gif> </td>
+            <td> <img src=newmodel/1_step/animation_850.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_850.gif> </td>
+            <td> <img src=optflow/animation_850.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_950.gif> </td>
+            <td> <img src=gt/copied/animation_950.gif> </td>
+            <td> <img src=newmodel/4_step/animation_950.gif> </td>
+            <td> <img src=newmodel/1_step/animation_950.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_950.gif> </td>
+            <td> <img src=optflow/animation_950.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1050.gif> </td>
+            <td> <img src=gt/copied/animation_1050.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1050.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1050.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1050.gif> </td>
+            <td> <img src=optflow/animation_1050.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1150.gif> </td>
+            <td> <img src=gt/copied/animation_1150.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1150.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1150.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1150.gif> </td>
+            <td> <img src=optflow/animation_1150.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1250.gif> </td>
+            <td> <img src=gt/copied/animation_1250.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1250.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1250.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1250.gif> </td>
+            <td> <img src=optflow/animation_1250.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1350.gif> </td>
+            <td> <img src=gt/copied/animation_1350.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1350.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1350.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1350.gif> </td>
+            <td> <img src=optflow/animation_1350.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1450.gif> </td>
+            <td> <img src=gt/copied/animation_1450.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1450.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1450.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1450.gif> </td>
+            <td> <img src=optflow/animation_1450.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1550.gif> </td>
+            <td> <img src=gt/copied/animation_1550.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1550.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1550.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1550.gif> </td>
+            <td> <img src=optflow/animation_1550.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1650.gif> </td>
+            <td> <img src=gt/copied/animation_1650.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1650.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1650.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1650.gif> </td>
+            <td> <img src=optflow/animation_1650.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1750.gif> </td>
+            <td> <img src=gt/copied/animation_1750.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1750.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1750.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1750.gif> </td>
+            <td> <img src=optflow/animation_1750.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1850.gif> </td>
+            <td> <img src=gt/copied/animation_1850.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1850.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1850.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1850.gif> </td>
+            <td> <img src=optflow/animation_1850.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_1950.gif> </td>
+            <td> <img src=gt/copied/animation_1950.gif> </td>
+            <td> <img src=newmodel/4_step/animation_1950.gif> </td>
+            <td> <img src=newmodel/1_step/animation_1950.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_1950.gif> </td>
+            <td> <img src=optflow/animation_1950.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2050.gif> </td>
+            <td> <img src=gt/copied/animation_2050.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2050.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2050.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2050.gif> </td>
+            <td> <img src=optflow/animation_2050.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2150.gif> </td>
+            <td> <img src=gt/copied/animation_2150.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2150.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2150.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2150.gif> </td>
+            <td> <img src=optflow/animation_2150.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2250.gif> </td>
+            <td> <img src=gt/copied/animation_2250.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2250.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2250.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2250.gif> </td>
+            <td> <img src=optflow/animation_2250.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2350.gif> </td>
+            <td> <img src=gt/copied/animation_2350.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2350.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2350.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2350.gif> </td>
+            <td> <img src=optflow/animation_2350.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2450.gif> </td>
+            <td> <img src=gt/copied/animation_2450.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2450.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2450.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2450.gif> </td>
+            <td> <img src=optflow/animation_2450.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2550.gif> </td>
+            <td> <img src=gt/copied/animation_2550.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2550.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2550.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2550.gif> </td>
+            <td> <img src=optflow/animation_2550.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2650.gif> </td>
+            <td> <img src=gt/copied/animation_2650.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2650.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2650.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2650.gif> </td>
+            <td> <img src=optflow/animation_2650.gif> </td>
+        </tr>
+        <tr>
+            <td> <img src=input/animation_2750.gif> </td>
+            <td> <img src=gt/copied/animation_2750.gif> </td>
+            <td> <img src=newmodel/4_step/animation_2750.gif> </td>
+            <td> <img src=newmodel/1_step/animation_2750.gif> </td>
+            <td> <img src=output_michael_advgdl/animation_2750.gif> </td>
+            <td> <img src=optflow/animation_2750.gif> </td>
+        </tr>
+    </table>
+</body>
+
+</html>
